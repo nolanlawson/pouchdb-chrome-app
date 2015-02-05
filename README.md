@@ -16,7 +16,7 @@ To use PouchDB in your Chrome app, just download [pouchdb.js](http://pouchdb.com
 <script src="path/to/pouchdb.js"></script>
 ```
 
-Now `PouchDB` is available as a global variable. So you can create an new PouchDB:
+Now `PouchDB` is available as a global variable. So you can create a new PouchDB:
 
 ```js
 var db = new PouchDB('mydb');
