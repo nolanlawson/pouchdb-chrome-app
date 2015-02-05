@@ -43,3 +43,5 @@ Both plugins can be installed by simply adding the script tag to your `index.htm
 <script src="path/to/pouchdb.find.js"></script>
 ```
 
+Another option is to simply not use the `query()` API, and to use `allDocs()` instead. Instructions for this technique can be found in the [PouchDB pro tips](http://pouchdb.com/2014/06/17/12-pro-tips-for-better-code-with-pouchdb.html) (tip #7).
+
