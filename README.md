@@ -45,3 +45,7 @@ Both plugins can be installed by simply adding the script tag to your `index.htm
 
 Another option is to simply not use the `query()` API, and to use `allDocs()` instead. Instructions for this technique can be found in the [PouchDB pro tips](http://pouchdb.com/2014/06/17/12-pro-tips-for-better-code-with-pouchdb.html) (tip #7).
 
+Using filtered replication
+------
+
+With [filtered replication](http://pouchdb.com/api.html#filtered-replication), filter functions inside of design documents are not supported, again because of the `eval()` limitation. Luckily you can still use `doc_ids`, ad-hoc filter functions, and server-side filtering.
